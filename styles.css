@@ -7682,6 +7682,10 @@ textarea.form-control-lg {
 .lh-lg {
   line-height: 2 !important;
 }
+.item{
+  /* border:2px solid red; */
+  width:100%;
+}
 
 .text-start {
   text-align: left !important;
@@ -7768,6 +7772,9 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-light-rgb), var(--bs-text-opacity)) !important;
 }
+.arrow{
+  color: black;
+}
 .tratments{
   display: flex;
   flex-direction: column;
@@ -7775,13 +7782,21 @@ textarea.form-control-lg {
   width:50vw;
   font-size: 15px;
 }
+.menu{
+  /* border:2px solid black; */
+  display: flex;
+  flex-direction: column;
+  width:100vh;
+}
 .icon{
   height: 30vh;
   width:30vw;
 }
 .teste{
-  height:50vh;
+  height:70%;
   margin-top:50px;
+  /* border:2px solid pink; */
+
 }
 .icon_carousel{
   width:64px;
@@ -11374,18 +11389,45 @@ body {
   width: 100%;
   height: 100%;
 }
+.logo{
+  width:260px;
+  /* width:410px;
+  height:300px; */
+  /* border:2px solid black; */
+}
 .experience_container{
-  margin-top: -70px;
+  /* border:2px solid orange; */
+}
+.services{
+  /* border:2px solid black; */
+  padding-top:0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.carousel-item{
+  /* border:2px solid black; */
+  /* width:70%; */
+}
+.align_carousel{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .page-section {
-  padding: 8rem 0;
+  padding: 3rem 0;
   background-color: white;
 }
 .bg-grey{
   background-color: grey;
 }
+.seta{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .experience{
-  height:50vh;
+  height:70vh;
 }
 .link_about{
   color: white;
