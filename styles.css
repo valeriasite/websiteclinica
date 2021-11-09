@@ -7822,7 +7822,7 @@ textarea.form-control-lg {
   margin: 0px auto;
   margin-top: 40px;
   text-align: center;
-  border:2px solid black;
+  /* border:2px solid black; */
   height: 10vh;
 }
 .div_text{
@@ -11415,7 +11415,7 @@ body {
 
 }
 .experience_container{
-  border:2px solid red;
+  /* border:2px solid red; */
   margin: 0px auto;
   height:auto;
   display:flex;
