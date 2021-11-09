@@ -7812,9 +7812,8 @@ textarea.form-control-lg {
 
 }
 .icon_carousel{
-  width:64px;
-  height:64px;
-  margin-top: 20px;
+  width:100px;
+  margin-top: 5%;
 
 }
 .text-carousel{
@@ -11413,9 +11412,9 @@ body {
 
 }
 .experience_container{
-  border:2px solid red;
+  /* border:2px solid red; */
   margin: 0px auto;
-  height:100%;
+  height:auto;
   display:flex;
   flex-direction: column;
   justify-content: space-between;
@@ -11449,7 +11448,7 @@ body {
   align-items: center;
 }
 .experience{
-  height:70vh;
+  height:auto;
 }
 .link_about{
   color: white;
