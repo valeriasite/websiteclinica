@@ -891,7 +891,22 @@ progress {
 .gy-5 {
   --bs-gutter-y: 3rem;
 }
-
+.link{
+  border-radius: 7px;
+  width:80%;
+  margin: 0 auto;
+  display: flex;
+  height:50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 1px 1px 1px rgb(0, 0, 0);
+  border: 2px solid black;
+  
+}
+.link:hover{
+  background-color: rgb(218, 218, 218);
+}
 @media (min-width: 576px) {
   .col-sm {
     flex: 1 0 0%;
@@ -3152,27 +3167,30 @@ textarea.form-control-lg {
 
 .btn-warning {
   color: #000;
-  background-color: #ffc107;
-  border-color: #ffc107;
+  background-color: white;
+  border-color: white;
 }
 .btn-warning:hover {
   color: #000;
-  background-color: #ffca2c;
-  border-color: #ffc720;
+  background-color: rgb(206, 206, 206);
+  border-color: rgb(206, 206, 206);
 }
 .btn-check:focus + .btn-warning, .btn-warning:focus {
   color: #000;
-  background-color: #ffca2c;
-  border-color: #ffc720;
-  box-shadow: 0 0 0 0.25rem rgba(217, 164, 6, 0.5);
+  background-color: rgb(206, 206, 206);
+  border-color: rgb(206, 206, 206);
+  box-shadow: 0 0 0 0.25rem rgba(231, 231, 231, 0.5);
+}
+.a_section{
+  text-decoration: none;
 }
 .btn-check:checked + .btn-warning, .btn-check:active + .btn-warning, .btn-warning:active, .btn-warning.active, .show > .btn-warning.dropdown-toggle {
   color: #000;
-  background-color: #ffcd39;
-  border-color: #ffc720;
+  background-color: rgb(206, 206, 206);
+  border-color: rgb(206, 206, 206);
 }
 .btn-check:checked + .btn-warning:focus, .btn-check:active + .btn-warning:focus, .btn-warning:active:focus, .btn-warning.active:focus, .show > .btn-warning.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(217, 164, 6, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(252, 252, 252, 0.5);
 }
 .btn-warning:disabled, .btn-warning.disabled {
   color: #000;
@@ -7750,7 +7768,49 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-light-rgb), var(--bs-text-opacity)) !important;
 }
-
+.tratments{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width:50vw;
+  font-size: 15px;
+}
+.icon{
+  height: 30vh;
+  width:30vw;
+}
+.teste{
+  height:50vh;
+}
+.icon_carousel{
+  width:20vw;
+  height:20vh;
+}
+.text-carousel{
+  font-size: 15px;
+  width:50vw;
+  margin: 0px auto;
+  margin-top: 10px;
+}
+.div_text{
+  display: flex;
+  flex-direction: column;
+  width:50vw;
+  justify-content: left;
+}
+.title_tratments{
+  font-size: 18px;
+  font-weight: 100;
+  text-align: left;
+}
+.section_tratments{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.subtitle{
+  margin-top: 20px;
+}
 .text-dark {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
@@ -11305,9 +11365,15 @@ body {
 
 .page-section {
   padding: 8rem 0;
-  background-color: #313131;
+  background-color: white;
+}
+.bg-grey{
+  background-color: grey;
 }
 
+.link_about{
+  color: white;
+}
 .page-section-contact {
   padding: 8rem 0;
   background-color: rgb(255, 193, 7);
@@ -11331,12 +11397,12 @@ hr.divider {
   height: 0.2rem;
   max-width: 3.25rem;
   margin: 1.5rem auto;
-  background-color: #ffc107;
+  background-color: black;
   opacity: 1;
 }
 
 hr.divider-light {
-  background-color: #343a40;
+  background-color: black;
 }
 
 #mainNav {
@@ -11401,14 +11467,38 @@ hr.divider-light {
   }
 }
 
+.img_home{
+  width: 100%;
+  height:45%;
+}
+.img_founder{
+  height:40vh;
+  width:40vw;
+  border-radius: 50%;
+}
+.section_about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.signature{
+  font-style: italic;
+  margin-left: 30px;
+}
+.text-about{
+  font-size: 14px;
+  text-align: left;
+}
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background-image: linear-gradient(to bottom, rgba(46, 42, 39, 0.884) 0%, rgba(56, 52, 49, 0.753) 100%), url("https://scontent.frec25-2.fna.fbcdn.net/v/t1.6435-9/148950123_2781047432224555_1579842268237001323_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=973b4a&_nc_ohc=mpNSdRr7hbQAX-qzQWP&_nc_ht=scontent.frec25-2.fna&oh=566b1ad0afcd052eaa05853fca254c09&oe=619C15D0");
+  background-image: linear-gradient(to bottom, rgba(46, 42, 39, 0.884) 0%, rgba(56, 52, 49, 0.753) 100%), url("assets/home.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  height: 100vh;
 }
 header.masthead h1, header.masthead .h1 {
   font-size: 2.25rem;
