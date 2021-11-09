@@ -7783,10 +7783,10 @@ textarea.form-control-lg {
   font-size: 15px;
 }
 .menu{
-  border:2px solid black;
+  /* border:2px solid black; */
   display: flex;
   flex-direction: column;
-  width:90vw;
+  width:96vw;
 }
 .icon{
   height: 30vh;
