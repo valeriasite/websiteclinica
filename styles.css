@@ -7786,7 +7786,7 @@ textarea.form-control-lg {
   /* border:2px solid black; */
   display: flex;
   flex-direction: column;
-  width:100vh;
+  width:90vh;
 }
 .icon{
   height: 30vh;
