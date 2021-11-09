@@ -7911,6 +7911,7 @@ textarea.form-control-lg {
 .structure{
   /*border:2px solid white*/
   padding:5%;
+  padding-bottom: 7%;
 }
 .bg-primary {
   --bs-bg-opacity: 1;
