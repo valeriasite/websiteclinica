@@ -3183,6 +3183,17 @@ textarea.form-control-lg {
 }
 .a_section{
   text-decoration: none;
+  width:100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.a_section:hover{
+  text-decoration: none;
+}
+.a_section:focus{
+  text-decoration: none;
 }
 .btn-check:checked + .btn-warning, .btn-check:active + .btn-warning, .btn-warning:active, .btn-warning.active, .show > .btn-warning.dropdown-toggle {
   color: #000;
@@ -7787,6 +7798,8 @@ textarea.form-control-lg {
   display: flex;
   flex-direction: column;
   width:96vw;
+  align-items: center;
+  justify-content: center;
 }
 .icon{
   height: 30vh;
