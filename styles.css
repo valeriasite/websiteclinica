@@ -11397,6 +11397,7 @@ body {
 }
 .experience_container{
   /* border:2px solid orange; */
+  margin: 0px auto;
 }
 .services{
   /* border:2px solid black; */
