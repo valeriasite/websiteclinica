@@ -7910,6 +7910,7 @@ textarea.form-control-lg {
 }
 .structure{
   /*border:2px solid white*/
+  padding:5%;
 }
 .bg-primary {
   --bs-bg-opacity: 1;
@@ -11413,6 +11414,9 @@ body {
 .other{
   margin-top:5%;
 
+}
+.structure_page{
+  height: auto;
 }
 .experience_container{
   /* border:2px solid red; */
