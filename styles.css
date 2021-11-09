@@ -7781,6 +7781,7 @@ textarea.form-control-lg {
 }
 .teste{
   height:50vh;
+  margin-top:50px;
 }
 .icon_carousel{
   width:64px;
@@ -11373,7 +11374,9 @@ body {
   width: 100%;
   height: 100%;
 }
-
+.experience_container{
+  margin-top: -70px;
+}
 .page-section {
   padding: 8rem 0;
   background-color: white;
@@ -11381,7 +11384,9 @@ body {
 .bg-grey{
   background-color: grey;
 }
-
+.experience{
+  height:80vh;
+}
 .link_about{
   color: white;
 }
