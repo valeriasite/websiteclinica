@@ -7871,7 +7871,7 @@ textarea.form-control-lg {
 
 .text-muted-contact {
   --bs-text-opacity: 1;
-  color: black !important;
+  color: #5a5b5f !important;
 }
 
 .text-black-50 {
@@ -11480,12 +11480,24 @@ body {
   margin-top:40px;
 
 }
+
+
 .wpp:hover{
   text-decoration: none;
   background-color: #60bf64;
   color:white;
 
 
+}
+.icon1{
+  margin:10px;
+}
+.social{
+  /* border:2px solid black; */
+  width:auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* .link_wpp{
   border:2px solid black;
