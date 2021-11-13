@@ -7832,12 +7832,10 @@ textarea.form-control-lg {
   text-decoration: none;
   color: black;
   letter-spacing: 1px;
-  font-weight:lighter;
 }
 .style_font{
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   letter-spacing: 1px;
-  font-weight:lighter;
 
 }
 .title{
@@ -11699,7 +11697,6 @@ hr.divider-white {
   margin-right: -10px;
 }
 .about{
-  border:2px solid black;
   height:95vh;
   display: flex;
   justify-content: center;
