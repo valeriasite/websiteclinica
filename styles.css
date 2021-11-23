@@ -6035,7 +6035,9 @@ textarea.form-control-lg {
   clear: both;
   content: "";
 }
-
+.lg{
+  width:auto;
+}
 .carousel-item {
   position: relative;
   display: none;
@@ -6050,6 +6052,9 @@ textarea.form-control-lg {
   .carousel-item {
     transition: none;
   }
+}
+.icon_carousel_img{
+  width:100%;
 }
 
 .carousel-item.active,
@@ -11500,6 +11505,16 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   margin:0px auto;
   margin-top:40px;
+
+}
+@font-face {
+  font-family: "Cocogoose";
+  src: url('./assets/cocogoose/Cocogoose\ Pro\ Ultralight-trial.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+.new-font{
+  font-family: "Cocogoose";
 
 }
 .home_link{
